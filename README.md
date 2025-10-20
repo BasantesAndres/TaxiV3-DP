@@ -49,7 +49,7 @@ conda install -c conda-forge gymnasium pygame numpy matplotlib pandas
 ## ▶️ How to run
 
 ```bash
-python TaxiFinal.py
+python TaxiV3DP.py
 ```
 
 **What you'll see:**
