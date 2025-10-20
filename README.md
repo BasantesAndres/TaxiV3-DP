@@ -20,9 +20,11 @@ Exact DP solvers for Taxi-v3:
 
 ```
 .
-├── TaxiFinal.py              # Main script with DP algorithms and plots
+├── TaxiV3DP.py              # Main script with DP algorithms and plots
 ├── README.md                 # (this file)
 └── taxi_dp_results.pkl       # (created after running; results dict for report)
+└── figs      # Plots
+
 ```
 
 ## 🧰 Requirements
@@ -127,10 +129,10 @@ matplotlib.use("Agg")
 
 ## 🛠 Troubleshooting
 
-- **Plots don't show** → Ensure you run as a script (`python TaxiFinal.py`) or enable interactive backends.
+- **Plots don't show** → Ensure you run as a script (`python TaxiV3DP.py`) or enable interactive backends.
 - **Pygame warning on Windows** → It's benign; you can ignore it or upgrade setuptools/pygame.
 - **Very slow first evaluation** → Normal for random initial policy; later evaluations converge faster.
 
 ---
 
-**Happy reinforcement learning! 🎓🤖**
+
